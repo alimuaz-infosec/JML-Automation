@@ -21,7 +21,7 @@ A professional-grade identity lifecycle management suite designed to automate th
    - `User.ReadWrite.All`
    - `Directory.ReadWrite.All`
 3. **Admin Consent:** Click "Grant admin consent" for your organization.
-4. **Environment Variables:** Create a `.env` file in the project root:
+4. **Environment Variables:** Create a `.env` file in the project root(you have to create env file in same folder then python can fetch):
    ```text
    TENANT_ID=your-tenant-id-here
    CLIENT_ID=your-client-id-here
